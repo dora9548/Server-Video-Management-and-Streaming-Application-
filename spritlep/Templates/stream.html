@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Video by ID</title>
+</head>
+<body>
+    <h2>Stream Video by ID</h2>
+    <form action="{% url 'video_stream' %}" method="get">
+        <label for="video_id">Enter Video ID:</label>
+        <input type="text" id="video_id" name="video_id">
+        <button type="submit">Stream Video</button>
+    </form>
+</body>
+</html>
+
